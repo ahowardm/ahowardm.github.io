@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Primary";
+    src: url("../fonts/jaapokkisubtract-regular.eot");
+    src: url("../fonts/jaapokkisubtract-regular.woff") format("woff"), url("../fonts/jaapokkisubtract-regular.ttf") format("truetype"), url("../fonts/jaapokki/jaapokkisubtract-regular.svg#filename") format("svg");
+}
+
+section {
+  padding: 2em;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.row {
+  align-items: center;
+}
+
+.css-header {
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+    max-width: 900px;
+}
+.css-header h1 {
+    font-family: 'Primary', Moderne Sans, sans-serif;
+    margin: 0;
+    font-size: 4.5em;
+    line-height: 1;
+    font-weight: 200;
+}
+.css-header h1 span {
+    font-family: Helvetica Neue, sans-serif;
+    display: block;
+    padding: 1em 0 1.5em;
+    font-size: 36%;
+    color: #95a5a6;
+    line-height: 1.4;
+}
+
+.demos {
+    padding-top: 1em;
+    font-size: 0.8em;
+}
+.demos a {
+    color: #031926;
+    display: inline-block;
+    margin: 0.35em 0.1em;
+    padding: 0.5em 1.2em;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius: 2px;
+    font-size: 110%;
+    border: 2px solid transparent;
+}
+.demos a:hover {
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    border-color: #43cea2;
+}
+.demos h3 {
+    margin: 0;
+    padding: 1em 0 0.5em 0;
+    font-size: 0.9em;
+    float: left;
+    min-width: 90px;
+    clear: left;
+}
+.demos div:not(:first-child) h3 {
+    padding-top: 2em;
+}
+.demos a:hover, .demos a.current-demo {
+    color: inherit;
+    text-decoration: none;
+    border-color: initial;
+}
