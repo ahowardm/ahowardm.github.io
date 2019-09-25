@@ -1,7 +1,7 @@
 @font-face {
-    font-family: "Primary";
-    src: url("../fonts/jaapokkisubtract-regular.eot");
-    src: url("../fonts/jaapokkisubtract-regular.woff") format("woff"), url("../fonts/jaapokkisubtract-regular.ttf") format("truetype"), url("../fonts/jaapokki/jaapokkisubtract-regular.svg#filename") format("svg");
+  font-family: "Primary";
+  src: url("../fonts/jaapokkisubtract-regular.eot");
+  src: url("../fonts/jaapokkisubtract-regular.woff") format("woff"), url("../fonts/jaapokkisubtract-regular.ttf") format("truetype"), url("../fonts/jaapokki/jaapokkisubtract-regular.svg#filename") format("svg");
 }
 
 section {
